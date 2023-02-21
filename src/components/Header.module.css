@@ -1,0 +1,42 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+.logo {
+  font-size: 3.2rem;
+  color: black;
+  text-decoration: none;
+  width: 30rem;
+}
+
+.aPlus {
+  font-weight: bolder;
+  margin-right: 1rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 90rem;
+}
+
+.navigation-items {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navigation-items:hover {
+  color: grey;
+  scale: 1.1;
+}
+
+@media (max-width: 1570px) {
+  .navigation {
+    width: 75rem;
+  }
+}

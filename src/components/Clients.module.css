@@ -1,0 +1,27 @@
+.clients {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.clients p {
+  width: 28rem;
+}
+
+.clients-images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 85%;
+}
+
+.clients-images img {
+  width: 17rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+@media (max-width: 1570px) {
+  .clients-images {
+    width: 80%;
+  }
+}
